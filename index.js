@@ -1,7 +1,7 @@
-console.log(score); // undefined
+// 식별자가 먼저 실행된다고 했는데 그럼 할당과 동시에 값을 생성해야하는 변수는?
 
-score = 80; //값의 할당
+console.log(sum); //undefined
+var sum = 10 + 20;
+console.log(sum); //30
 
-var score; //변수 선언
-
-console.log(score); //
+// 실행결과 값을 생성하는게 먼저 
