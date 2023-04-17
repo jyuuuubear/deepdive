@@ -5,3 +5,6 @@ var sum = 10 + 20;
 console.log(sum); //30
 
 // 실행결과 값을 생성하는게 먼저 
+var add = 1;
+
+console.log(sum);
