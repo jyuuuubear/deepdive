@@ -1,4 +1,7 @@
-// myapp/index.js
-const arr = [1, 2, 3];
+console.log(score); // undefined
 
-arr.forEach(alert);
+score = 80; //값의 할당
+
+var score; //변수 선언
+
+console.log(score); //
