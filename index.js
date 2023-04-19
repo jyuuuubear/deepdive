@@ -1,6 +1,5 @@
-//templete literal
+x = 1;
+var test = x>0 ? 'right' : 'wrong';
+console.log(test);
 
-var first = `Ung-mo`;
-var last = `Lee`;
-
-console.log(`my name is ${first} ${last}.`);
+//삼항조건연산자 
